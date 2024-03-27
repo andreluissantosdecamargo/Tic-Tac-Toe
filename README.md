@@ -19,9 +19,8 @@ Este é um jogo da velha simples desenvolvido em HTML, CSS e JavaScript.
 
 ## Atividade Avaliativa
 
-Este projeto foi desenvolvido como parte de uma atividade avaliativa.
+Este projeto foi desenvolvido como parte de uma atividade avaliativa. Como um projeto de prática de desenvolvimento web em correção de codigos como proposto na atividade "O jogo não está funcionando, você deve arrumar o arquivo js e comentar o que foi mudado para que ele volte a funcionar".
 
 ## Créditos
 
-Este jogo foi desenvolvido por André Luís ou @andree.zxs como um projeto de prática de desenvolvimento web em correção de codigos como proposto na atividade "O jogo não está funcionando, você deve arrumar o arquivo js e comentar o que foi mudado para que ele volte a funcionar".
-
+Este jogo foi desenvolvido por @andree.zxs ou André Luís 3° TDS A.
