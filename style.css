@@ -1,0 +1,98 @@
+/* Adicionado CSS */
+
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0; /* Cor de fundo do corpo */
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor do texto */
+}
+
+.game-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #e6f4f1; /* Cor de fundo do contêiner do jogo */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Cor do título */
+    font-size: 24px; /* Tamanho da fonte aumentado */
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.player {
+    font-size: 18px;
+    color: #666; /* Cor dos nomes dos jogadores */
+    margin-right: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #b3e0d7; /* Cor das células vazias */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333; /* Cor dos símbolos */
+    cursor: pointer;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+.cell:hover {
+    background-color: #81c8b7; /* Cor de fundo das células ao passar o mouse */
+}
+
+#botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc80; /* Cor de fundo dos botões */
+    color: #333; /* Cor do texto dos botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffb74d; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+.cell.x::before {
+    content: 'X';
+    color: #00796b; /* Cor do símbolo X */
+}
+
+.cell.o::before {
+    content: 'O';
+    color: #ff1744; /* Cor do símbolo O */
+}
