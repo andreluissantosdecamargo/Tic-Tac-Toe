@@ -24,3 +24,5 @@ Este projeto foi desenvolvido como parte de uma atividade avaliativa. Como um pr
 ## Créditos
 
 Este jogo foi desenvolvido por @andree.zxs ou André Luís 3° TDS A.
+
+https://andreluissantosdecamargo.github.io/Tic-Tac-Toe/
